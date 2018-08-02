@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 MongoClient.connect(db.url, (err, database) => {
   if (err) return console.log(err);
 
-  const db = database.db("thai-jokes");
+  const db = database.db("test");
 
   routes(app, db);
   app.listen(port, () => {
@@ -20,6 +20,4 @@ MongoClient.connect(db.url, (err, database) => {
   });
 
 });
-
-//https://www.dek-d.com/board/view/2326563/
 
