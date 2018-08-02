@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/db.js"],"names":["url"],"mappings":"AAAA,eAAe;AACbA,OAAK;AADQ,CAAf","file":"db.js","sourcesContent":["export default {\n  url: 'mongodb://test:test12@ds111082.mlab.com:11082/thai-jokes'\n};"]}
