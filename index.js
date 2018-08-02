@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 MongoClient.connect(db.url, (err, database) => {
   if (err) return console.log(err);
 
-  const db = database.db("test");
+  const db = database.db("thai-jokes");
 
   routes(app, db);
   app.listen(port, () => {

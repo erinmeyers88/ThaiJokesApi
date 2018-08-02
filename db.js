@@ -1,3 +1,3 @@
 export default {
-  url: 'mongodb://127.0.0.1:27017'
+  url: 'mongodb://test:test12@ds111082.mlab.com:11082/thai-jokes'
 };
